@@ -167,8 +167,9 @@ export default function App() {
   };
 
   const handleDelete = (id: string) => {
+    // Fixed Error 3: Changed to !== to filter OUT the target album rather than keeping only it
     setAlbums((currentAlbums) =>
-      currentAlbums.filter((album) => album.id === id)
+      currentAlbums.filter((album) => album.id !== id)
     );
   };
 
