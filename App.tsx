@@ -222,8 +222,9 @@ export default function App() {
       />
 
       <Text style={styles.label}>Genre</Text>
+      {/* Fixed Error 4: Bound selectedValue to genre instead of title */} 
       <Picker
-        selectedValue={title}
+        selectedValue={genre}
         onValueChange={(value) => setGenre(value)}
       >
         <Picker.Item label="Select a genre..." value="" />
