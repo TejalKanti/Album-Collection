@@ -75,9 +75,9 @@ export default function App() {
       Alert.alert('Validation Error', 'Please enter an artist name.');
       return false;
     }
-
+    // changed the && to ||
     if (
-      artist.trim().length < MIN_TEXT_LENGTH &&
+      artist.trim().length < MIN_TEXT_LENGTH ||
       artist.trim().length > MAX_ARTIST_LENGTH
     ) {
       Alert.alert(
