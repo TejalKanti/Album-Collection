@@ -10,7 +10,7 @@ import {
 } from 'react-native';
 
 // npx expo install @expo/ui
-import { Picker } from '@expo/ui/community/picker';
+import { Picker } from '@react-native-picker/picker';
 
 // Fixed Error 0: Defined year and rating as numbers to match form conversion and validation
 type Album = {
@@ -226,8 +226,8 @@ export default function App() {
       {/* Fixed Error 4: Bound selectedValue to genre instead of title */} 
       <Picker
         selectedValue={genre}
-        onValueChange={(value) => setGenre(value)}
-      >
+        onValueChange={(value) => setGenre(value)}      
+        >
         <Picker.Item label="Select a genre..." value="" />
 
         {genres.map((item) => (
