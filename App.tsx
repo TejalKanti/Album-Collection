@@ -156,7 +156,8 @@ export default function App() {
       rating: Number(rating),
     };
 
-    setAlbums([temporaryAlbum]);
+    // Fixed Error 2: Appended the new album instead of wiping out the old list state
+    setAlbums((prevAlbums) => [...prevAlbums, temporaryAlbum]);
 
     setTitle('');
     setArtist('');
