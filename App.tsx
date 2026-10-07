@@ -254,7 +254,8 @@ export default function App() {
 
       <FlatList
         data={albums}
-        keyExtractor={(item) => item.title}
+        // Fixed Error 6: Switched extractor to id to keep elements distinct if titles match
+        keyExtractor={(item) => item.id}
         renderItem={renderAlbum}
         ListEmptyComponent={
           <Text style={styles.emptyMessage}>
