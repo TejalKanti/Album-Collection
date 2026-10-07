@@ -230,8 +230,9 @@ export default function App() {
         <Picker.Item label="Select a genre..." value="" />
 
         {genres.map((item) => (
-	  <Picker.Item key={item} label={item} value={genre} />
-	))}
+          /* Fixed Error 5: Bound value to item instead of genre variable */
+          <Picker.Item key={item} label={item} value={item} />
+        ))}
       </Picker>
 
       <Text style={styles.label}>Rating</Text>
