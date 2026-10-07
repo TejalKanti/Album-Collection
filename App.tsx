@@ -12,13 +12,14 @@ import {
 // npx expo install @expo/ui
 import { Picker } from '@expo/ui/community/picker';
 
+// Fixed Error 0: Defined year and rating as numbers to match form conversion and validation
 type Album = {
   id: string;
   title: string;
   artist: string;
-  year: string;
+  year: number;
   genre: string;
-  rating: string;
+  rating: number;
 };
 
 const genres: string[] = [
