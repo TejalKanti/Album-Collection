@@ -59,9 +59,9 @@ export default function App() {
       Alert.alert('Validation Error', 'Please enter an album title.');
       return false;
     }
-
+    // Fix 1: changed the && to ||
     if (
-      title.trim().length < MIN_TEXT_LENGTH &&
+      title.trim().length < MIN_TEXT_LENGTH ||
       title.trim().length > MAX_TITLE_LENGTH
     ) {
       Alert.alert(
