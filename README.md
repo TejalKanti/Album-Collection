@@ -87,39 +87,34 @@ Testing Steps & Observations:
 
 ## Screenshots
 
-<img width="3170" height="1674" alt="site map" src="https://github.com/user-attachments/assets/6d9ead61-dae3-4451-b91c-c6f456351a73" />
+<img width="270" height="480" alt="Screenshot_2026 10 07_22 07 43 104" src="https://github.com/user-attachments/assets/4dc3b3de-fcd4-4012-99d9-3e36a374193b" />
 
 *Caption for screenshot 1: Home Screen.*
 
 
-<img width="3170" height="1674" alt="site map" src="https://github.com/user-attachments/assets/6d9ead61-dae3-4451-b91c-c6f456351a73" />
+<img width="270" height="480" alt="Screenshot_2026 10 07_22 11 01 536" src="https://github.com/user-attachments/assets/75296838-4e1c-4e5c-a2fd-a89038cb7e8e" />
 
 *Caption for screenshot 2: Added to Album.*
 
 
-<img width="3170" height="1674" alt="site map" src="https://github.com/user-attachments/assets/6d9ead61-dae3-4451-b91c-c6f456351a73" />
+<img width="270" height="480" alt="Screenshot_2026 10 07_22 12 47 577" src="https://github.com/user-attachments/assets/6e5a8d28-c8cc-41e1-9fc5-469c98e82b72" />
 
 *Caption for screenshot 3: Validation Error: Enter Information.*
 
 
-<img width="3170" height="1674" alt="site map" src="https://github.com/user-attachments/assets/6d9ead61-dae3-4451-b91c-c6f456351a73" />
+<img width="270" height="480" alt="Screenshot_2026 10 07_22 12 47 577" src="https://github.com/user-attachments/assets/faac4370-e7be-418e-9f82-388fc5673d39" />
 
 *Caption for screenshot 4: Validation Error: For Album Title.*
 
 
-<img width="3170" height="1674" alt="site map" src="https://github.com/user-attachments/assets/6d9ead61-dae3-4451-b91c-c6f456351a73" />
+<img width="270" height="480" alt="Screenshot_2026 10 07_22 14 37 481" src="https://github.com/user-attachments/assets/6801e759-1be4-4796-8c90-fde743bfedc3" />
 
 *Caption for screenshot 5: Validation Error: For Artist Name.*
 
 
-<img width="3170" height="1674" alt="site map" src="https://github.com/user-attachments/assets/6d9ead61-dae3-4451-b91c-c6f456351a73" />
+<img width="270" height="480" alt="Screenshot_2026 10 07_22 16 52 653" src="https://github.com/user-attachments/assets/79613410-6aa0-4abd-8ef0-5a8f25e3d73f" />
 
 *Caption for screenshot 6: Validation Error: For Genre.*
-
-
-<img width="3170" height="1674" alt="site map" src="https://github.com/user-attachments/assets/6d9ead61-dae3-4451-b91c-c6f456351a73" />
-
-*Caption for screenshot 7: Validation Error: For Rating.*
 
 ---
 
